@@ -1,0 +1,299 @@
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+.success .hidden_pic{
+	display:none;
+}
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.container_full{
+	width:98%;
+}
+.container{
+	width:65%;
+}
+	.slider_top{
+		width:80%;
+		background:#ddd;
+		padding-left:0px;
+		padding-right:192px;
+	}
+	.slider_down_area{
+		width:80%;
+	}
+	.slider_down_area .slider_down_area_single_column{
+	width:231px;
+	padding-right:30px;
+	}
+	.slider_down_area .amader{
+	width:98%;
+}
+	.slider_down_area .slider_down_area_single_column h3 {
+    margin-left:10px;
+}
+	.slider_down_area .padding-right_none{
+	padding-right:0px;
+}
+	.slider_down_area .slider_down_area_single_column img{
+	width:100%;
+	height:auto;
+	padding:5px;
+	border:2px solid #ddd;
+	overflow:hidden;
+	margin-right:10px;
+}
+.teasers .h2.position_center{
+	width:80%;
+}
+
+.teasers .slider_down_area_single_column img{
+	width:140px;
+	height:140px;
+}
+.teasers .slider_down_area_single_column{
+	width:140px;
+	padding-right:10px;
+}
+h2.position_center {
+    width:77%;
+}
+
+.picture_galary.picture_galary {
+	width:80%;
+}
+.picture_galary img{
+	width:46%;
+	margin-bottom:10px;
+}
+.success .hidden_pic{
+	display:inline;
+	margin-left: 15px;
+}
+.footer_top_area{
+	width:80%;
+}
+.fff_full_wide{
+	float:none;
+	
+}
+.footer_top_area .footer_top_area_single_column2 input {
+    width: 752px;
+    height: 35px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.footer_wra .follow_us {
+    margin-left: 86px;
+    color: #fff;
+}
+
+.floatright {
+    float: left;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	.container_full{
+	width:98%;
+}
+.container{
+	width:65%;
+}
+	
+	.slider_top{
+		width:80%;
+		background:#ddd;
+		padding-left:0px;
+		padding-right:192px;
+	}
+	.slider_down_area{
+		width:80%;
+	}
+	.slider_down_area .slider_down_area_single_column{
+	width:231px;
+	padding-right:30px;
+	}
+	.slider_down_area .amader{
+	width:98%;
+}
+	.slider_down_area .slider_down_area_single_column h3 {
+    margin-left:10px;
+}
+	.slider_down_area .padding-right_none{
+	padding-right:0px;
+}
+	.slider_down_area .slider_down_area_single_column img{
+	width:100%;
+	height:auto;
+	padding:5px;
+	border:2px solid #ddd;
+	overflow:hidden;
+	margin-right:10px;
+}
+.teasers .h2.position_center{
+	width:80%;
+}
+
+.teasers .slider_down_area_single_column img{
+	width:140px;
+	height:140px;
+}
+.teasers .slider_down_area_single_column{
+	width:140px;
+	padding-right:10px;
+}
+h2.position_center {
+    width:77%;
+}
+
+.picture_galary.picture_galary {
+	width:80%;
+}
+.picture_galary img{
+	width:46%;
+	margin-bottom:10px;
+}
+.success .hidden_pic{
+	display:inline;
+	margin-left: 15px;
+}
+.footer_top_area{
+	width:80%;
+}
+.fff_full_wide{
+	float:none;
+	
+}
+.footer_top_area .footer_top_area_single_column2 input {
+    width: 752px;
+    height: 35px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.footer_wra .follow_us {
+    margin-left: 86px;
+    color: #fff;
+}
+
+.floatright {
+    float: left;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container_full{
+	width:98%;
+}
+.container{
+	width:65%;
+}
+	.slider-wrapper{
+		display:none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

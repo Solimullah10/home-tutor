@@ -1,0 +1,25 @@
+
+.slider_down_area .slider_down_area_single_column{
+	width:100%;
+	height:auto;
+	padding-right:30px;
+}
+
+
+.slider_down_area .slider_down_area_single_column img{
+	width:30%;
+	height:auto;
+	padding:5px;
+	border:2px solid #ddd;
+	overflow:hidden;
+	margin-right:10px;
+	display:block;
+	margin:0 auto;
+}
+.slider_down_area .slider_down_area_single_column p{
+	margin-bottom:0;
+	font-family: SolaimanLipi;
+	color:#7d26bf;
+	font-size:20px;
+}
+
